@@ -1,0 +1,6 @@
+@mixin bg-cover($url) {
+    background: url($url);
+    @media (min-width: 768px) {
+        height: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+.bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-linear {
+    background: linear-gradient(to bottom, #7000FF, #11002D);
+}
+.bg-radial {
+    background:radial-gradient(circle farthest-side at center, #28085C, #000000);
+}
