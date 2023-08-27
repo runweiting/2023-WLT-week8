@@ -1,3 +1,4 @@
+/* ======= font-family ======= */
 .noto-sans-tc {
     font-family: 'Noto Sans TC' !important;
 }
@@ -7,3 +8,13 @@
 .shrikhand {
     font-family: 'Shrikhand' !important;
 }
+
+/* ======= font-size ======= */
+@media (min-width: 768px) {
+    .fs-md-2 {
+        font-size: 2rem !important;  // 32px
+    }
+
+}
+
+

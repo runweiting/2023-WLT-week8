@@ -9,3 +9,10 @@
 .bg-radial {
     background:radial-gradient(circle farthest-side at center, #28085C, #000000);
 }
+@mixin bg-cover($url, $height) {
+    background: url($url);
+    height: $height;
+    @media (min-width: 768px) {
+        height: 100%;
+    }
+}

@@ -1,26 +1,52 @@
 <!------- 表頭 header ------->
-<nav class="container bg-primary">
-    <div class="row py-4">
-        <div class="col-4">
-            <h1><a class="shrikhand fs-2 fst-italic" href="index.html">ALPHABOX+</a></h1>
-        </div>
-        <div class="col-8">
-            <ul class="list-unstyled">
-                <li><a class="fw-medium" href="product.html">產品</a></li>
-                <li><a class="fw-medium" href="#">關於我們</a></li>
-                <li><a class="fw-medium" href="#">最新消息</a></li>
-                <li><a class="fw-medium" href="#">FAQ</a></li>
-                <li><a class="fw-medium" href="#">聯絡我們</a></li>
-            </ul>
-            <ul class="list-unstyled">
-                <li><a class="fw-medium" href="#">註冊</a></li>
-                <li><a class="fw-medium" href="#">登入</a></li>
-                <li><a class="btn btn-white text-black fw-medium" href="#">
-                    <span class="material-symbols-outlined text-black" style="width: 24px; height: 24px;">
-                    point_scan
-                    </span>
-                    訂閱</a></li>
-            </ul>
-        </div>
+<nav class="container bg-primary d-flex justify-content-between py-4">
+    <div class="d-flex align-items-center">
+        <h1 style="font-size: 0;"><a class="shrikhand fs-4 fs-md-2 fst-italic" href="index.html">ALPHABOX+</a></h1>
+    </div>
+    <div class="d-flex align-items-center d-none d-lg-inline-flex">
+        <ul class="list-unstyled mb-0 d-flex gap-10">
+            <li><a class="fw-medium" href="product.html">產品</a></li>
+            <li><a class="fw-medium" href="#">關於我們</a></li>
+            <li><a class="fw-medium" href="#">最新消息</a></li>
+            <li><a class="fw-medium" href="#">FAQ</a></li>
+            <li><a class="fw-medium" href="#">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div class="d-flex align-items-center d-none d-lg-inline-flex">
+        <ul class="list-unstyled w-40 mb-0 ms-auto d-flex gap-6 align-items-center">
+            <li><a class="fw-medium" href="#">註冊</a></li>
+            <li><a class="fw-medium" href="#">登入</a></li>
+            <li><a class="btn btn-white text-black fw-medium px-4 py-2 d-flex align-items-center" href="#">
+                <span class="material-symbols-outlined text-black me-1" style="width: 24px; height: 24px;">
+                point_scan
+                </span>
+                <span>
+                    訂閱
+                </span>
+                </a></li>
+        </ul>
+    </div>
+    <!------- navbar-toggler ------->
+    <button class="navbar-toggler border-0 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-symbols-outlined" style="font-size: 44px;">
+            menu
+            </span>
+    </button>     
+    <!------- collapse navbar-nav ------->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav flex-column pb-3">
+            <li class="nav-item display-8">
+                <a class="nav-link text-primary py-3" href="#">
+                    <i class="icofont-ui-file display-8 me-1"></i>
+                    REGISTER
+                </a>
+            </li>
+            <li class="nav-item display-8">
+                <a class="nav-link text-primary py-3" href="login.html">
+                    <i class="icofont-ui-user me-1"></i>
+                    LOGIN
+                </a>
+            </li>
+        </ul>
     </div>
 </nav>
