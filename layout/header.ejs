@@ -1,8 +1,10 @@
 <!------- 表頭 header ------->
-<nav class="container bg-primary d-flex justify-content-between py-4">
+<nav class="container bg-primary d-flex justify-content-between py-4 border-bottom border-1 border-white">
+    <!------- logotype ------->
     <div class="d-flex align-items-center">
         <h1 style="font-size: 0;"><a class="shrikhand fs-4 fs-md-2 fst-italic" href="index.html">ALPHABOX+</a></h1>
     </div>
+    <!------- menu-公司資訊 ------->
     <div class="d-flex align-items-center d-none d-lg-inline-flex">
         <ul class="list-unstyled mb-0 d-flex gap-10">
             <li><a class="fw-medium" href="product.html">產品</a></li>
@@ -12,6 +14,7 @@
             <li><a class="fw-medium" href="#">聯絡我們</a></li>
         </ul>
     </div>
+    <!------- menu-註冊登入 ------->
     <div class="d-flex align-items-center d-none d-lg-inline-flex">
         <ul class="list-unstyled w-40 mb-0 ms-auto d-flex gap-6 align-items-center">
             <li><a class="fw-medium" href="#">註冊</a></li>
@@ -32,21 +35,40 @@
             menu
             </span>
     </button>     
+</nav>
+<div class="container bg-linear">
     <!------- collapse navbar-nav ------->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav flex-column pb-3">
-            <li class="nav-item display-8">
-                <a class="nav-link text-primary py-3" href="#">
-                    <i class="icofont-ui-file display-8 me-1"></i>
-                    REGISTER
-                </a>
+        <ul class="navbar-nav text-center gap-1 pt-6 pb-8">
+            <li class="nav-item w-100">
+                <a class="nav-link py-2" href="product.html">產品</a>
             </li>
-            <li class="nav-item display-8">
-                <a class="nav-link text-primary py-3" href="login.html">
-                    <i class="icofont-ui-user me-1"></i>
-                    LOGIN
+            <li class="nav-item w-100">
+                <a class="nav-link fw-medium py-2" href="#">關於我們</a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link fw-medium py-2" href="#">最新消息</a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link fw-medium py-2" href="#">FAQ</a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link fw-medium py-2" href="#">聯絡我們</a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link fw-medium py-2" href="#">註冊</a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link fw-medium py-2" href="#">登入</a>
+            </li>
+            <li class="nav-item d-inline-flex align-self-center">
+                <a class="btn btn-white text-black fw-medium px-4 py-2 d-flex align-items-center" href="#">
+                    <span class="material-symbols-outlined text-black me-1" style="width: 24px; height: 24px;">
+                        point_scan
+                    </span>
+                    <span>訂閱</span>
                 </a>
             </li>
         </ul>
     </div>
-</nav>
+</div>
