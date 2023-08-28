@@ -1,0 +1,12 @@
+/* ======= nav ======= */
+.btn-white:hover {
+    color: $white !important;
+    background-color: $black;
+    span {
+        color: $white !important;
+    }
+}
+/* ======= footer ======= */
+footer a:hover {
+    color: $primary !important;
+}
