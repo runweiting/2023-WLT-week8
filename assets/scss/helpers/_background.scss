@@ -17,6 +17,6 @@
     @include bg-cover('../images/home_background.png', 960px)
 }
 .bg-carousel {
-    width: 948px;
+    max-width: 948px;
     @include bg-cover('../images/carousel_background.png', 1089px)
 }
