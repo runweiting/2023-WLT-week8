@@ -1,8 +1,4 @@
-.bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/* ======= bg-setting ======= */
 .bg-linear {
     background: linear-gradient(to bottom, #7000FF, #11002D);
 }
@@ -12,7 +8,15 @@
 @mixin bg-cover($url, $height) {
     background: url($url);
     height: $height;
-    @media (min-width: 768px) {
-        height: 100%;
-    }
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ======= index.html ======= */
+.bg-landingpage {
+    background-position: center;
+    @include bg-cover('../images/home_background.png', 960px)
+}
+.bg-carousel {
+    width: 948px;
+    @include bg-cover('../images/carousel_background.png', 1089px)
 }
