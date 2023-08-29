@@ -22,6 +22,9 @@
 .bg-landingpage {
     @include bg-cover('../images/home_background.png', 1778px);
     @media (min-width: 768px) {
+        height: 2960px;
+    }
+    @media (min-width: 1200px) {
         height: 880px;
     }
 }
@@ -69,6 +72,9 @@
     background-position: left, center;
     background-repeat: no-repeat, no-repeat;
     @media (min-width: 768px) {
+        height: 1061px;
+    }
+    @media (min-width: 1200px) {
         height: 1089px;
     }
 }
