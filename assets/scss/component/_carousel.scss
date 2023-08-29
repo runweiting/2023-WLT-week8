@@ -1,0 +1,4 @@
+.carousel-imgBox {
+    max-width: 100%;
+    @include bg-cover('../images/carousel.png', 560px);
+}

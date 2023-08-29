@@ -17,22 +17,25 @@
 }
 
 /* ======= letter-spacing ======= */
-.ls-xs {
+// 0.1的倍數
+.ls-1 {
     letter-spacing: 0.1rem;
 }
-.ls-sm {
+.ls-3 {
     letter-spacing: 0.3rem;
 }
-.ls-xxxl-md {
-    @media (min-width: 1920px) {
-        letter-spacing: 1rem;
-    }
-}
-.ls-base {
+.ls-15 {
     letter-spacing: 1.5rem;
 }
-.ls-xxxl-xl {
-    @media (min-width: 1920px) {
+
+@media (min-width: 1920px) {
+    .ls-xxxl-10 {
+        letter-spacing: 1rem;
+    }
+    .ls-xxxl-20 {
+        letter-spacing: 2rem;
+    }
+    .ls-xxxl-45 {
         letter-spacing: 4.5rem;
     }
 }
