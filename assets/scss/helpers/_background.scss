@@ -64,8 +64,11 @@
     }
 }
 .bg-carousel {
-    height: 1089px;
+    height: 791px;
     background: url('../images/carousel_background.png'), radial-gradient(circle farthest-side at center, #28085C, #000000);
     background-position: left, center;
     background-repeat: no-repeat, no-repeat;
+    @media (min-width: 768px) {
+        height: 1089px;
+    }
 }

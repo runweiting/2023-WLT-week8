@@ -14,6 +14,9 @@
     .fs-xl-2 {
         font-size: 2rem !important;  // 32px
     }
+    .display-xl-4 {
+        font-size: 3rem !important;
+    }
 }
 
 /* ======= letter-spacing ======= */
@@ -24,6 +27,12 @@
 .ls-3 {
     letter-spacing: 0.3rem;
 }
+.ls-7 {
+    letter-spacing: 0.7rem;
+}
+.ls-12 {
+    letter-spacing: 1.2rem;
+}
 .ls-15 {
     letter-spacing: 1.5rem;
 }
@@ -31,6 +40,9 @@
 @media (min-width: 1920px) {
     .ls-xxxl-10 {
         letter-spacing: 1rem;
+    }
+    .ls-xxxl-15 {
+        letter-spacing: 1.5rem;
     }
     .ls-xxxl-20 {
         letter-spacing: 2rem;
