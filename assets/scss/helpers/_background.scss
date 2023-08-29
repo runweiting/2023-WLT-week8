@@ -30,7 +30,10 @@
     @include bg-cover('../images/diane_square1.png', 351px);
     @media (min-width: 768px) {
         box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
-        @include bg-cover('../images/diane.png', 100%);
+        @include bg-cover('../images/diane.png', 676px);
+    }
+    @media (min-width: 1200px) {
+        height: 100%;
     }
 }
 .bg-product2 {
@@ -54,7 +57,10 @@
     @include bg-cover('../images/vito_square1.png', 351px);
     @media (min-width: 768px) {
         box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
-        @include bg-cover('../images/vito.png', 100%);
+        @include bg-cover('../images/vito.png', 676px);
+    }
+    @media (min-width: 1200px) {
+        height: 100%;
     }
 }
 .bg-carousel {
