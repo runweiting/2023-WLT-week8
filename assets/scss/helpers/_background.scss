@@ -8,12 +8,12 @@
 @mixin bg-cover($url, $height) {
     background: url($url);
     height: $height;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 /* ======= index.html ======= */
 .bg-landingpage {
-    background-position: center;
     @include bg-cover('../images/home_background.png', 1778px);
     @media (min-width: 768px) {
         height: 880px;
@@ -23,9 +23,9 @@
     max-width: 948px;
     @include bg-cover('../images/carousel_background.png', 1089px)
 }
+
 .bg-product1 {
     max-width: 100%;
-    background-position: center;
     @include bg-cover('../images/diane_square1.png', 351px);
     @media (min-width: 768px) {
         box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
@@ -34,7 +34,6 @@
 }
 .bg-product2 {
     max-width: 100%;
-    background-position: center;
     @include bg-cover('../images/felix_square1.png', 351px);
     @media (min-width: 768px) {
         box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
@@ -43,7 +42,6 @@
 }
 .bg-product3 {
     max-width: 100%;
-    background-position: center;
     @include bg-cover('../images/Karina_square1.png', 351px);
     @media (min-width: 768px) {
         box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
@@ -52,7 +50,6 @@
 }
 .bg-product4 {
     max-width: 100%;
-    background-position: center;
     @include bg-cover('../images/vito_square1.png', 351px);
     @media (min-width: 768px) {
         box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);

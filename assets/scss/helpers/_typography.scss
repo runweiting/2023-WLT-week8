@@ -10,25 +10,29 @@
 }
 
 /* ======= font-size ======= */
-@media (min-width: 768px) {
-    .fs-md-2 {
+@media (min-width: 1200px) {
+    .fs-xl-2 {
         font-size: 2rem !important;  // 32px
     }
 }
 
 /* ======= letter-spacing ======= */
-
 .ls-xs {
     letter-spacing: 0.1rem;
 }
 .ls-sm {
     letter-spacing: 0.3rem;
 }
+.ls-xxxl-md {
+    @media (min-width: 1920px) {
+        letter-spacing: 1rem;
+    }
+}
 .ls-base {
     letter-spacing: 1.5rem;
 }
-.ls-md {
-    @media (min-width: 768px) {
+.ls-xxxl-xl {
+    @media (min-width: 1920px) {
         letter-spacing: 4.5rem;
     }
 }
