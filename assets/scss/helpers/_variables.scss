@@ -408,7 +408,8 @@ $spacers: (
   28: $spacer * 7,     // 112px custom
   32: $spacer * 8,     // 128px custom
   36: $spacer * 9,     // 144px custom
-  38: $spacer * 9.5    // 152px custom
+  38: $spacer * 9.5,   // 152px custom
+  40: $spacer * 10     // 160px custom
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -628,7 +629,7 @@ $headings-margin-bottom:      0 !default;  // custom
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
-$headings-line-height:        1 !default;  // custom
+$headings-line-height:        1.5 !default;  // custom
 $headings-color:              null !default;
 // scss-docs-end headings-variables
 

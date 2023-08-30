@@ -31,23 +31,14 @@
 
 
 /* ======= carousel-control ======= */
-@mixin svg($url) {
-    display: inline-block;
-    width: 180px;
-    height: 48px;
-    background: url($url);
-    background-size: 100% 100%;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
-.arrow-start {
-    @include svg('../images/line_start_arrow_notch.svg');
+.arrow-start-carousel {
+    @include svg('../images/line_start_arrow_notch_carousel.svg', 180px, 48px);
     &:hover {
         opacity: 1;
     }
 }
-.arrow-end {
-    @include svg('../images/line_end_arrow_notch.svg');
+.arrow-end-carousel {
+    @include svg('../images/line_end_arrow_notch_carousel.svg', 180px, 48px);
     &:hover {
         opacity: 1;
     }

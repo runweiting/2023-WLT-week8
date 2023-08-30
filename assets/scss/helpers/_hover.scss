@@ -11,6 +11,26 @@
     color: shift-color($link-color, $link-shade-percentage);
 }
 
+/* ======= landingpage-bottom ======= */
+.hover-product {
+    transition: 2s ease-in;
+    &:hover {
+        .bg {
+            transform: scale(0.8);
+            box-shadow: 0px 0px 16px 8px rgba(31, 15, 57, 0.8);
+            transition: all 1s;
+        }
+    }
+}
+
+/* ======= carousel ======= */
+.carousel-item a:hover {
+    .hover-carousel {
+        opacity: 0.8;
+        transition: all 0.5s;
+    }
+}
+
 /* ======= footer ======= */
 footer a:hover {
     color: $primary !important;

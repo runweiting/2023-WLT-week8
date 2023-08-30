@@ -18,6 +18,18 @@
     background-position: center top;
     background-repeat: no-repeat;
 }
+
+/* ======= svg-setting ======= */
+@mixin svg($url, $width, $height) {
+    display: inline-block;
+    width: $width;
+    height: $height;
+    background: url($url);
+    background-size: 100% 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
 /* ======= index.html ======= */
 .bg-landingpage {
     @include bg-cover('../images/home_background.png', 1778px);
@@ -77,4 +89,8 @@
     @media (min-width: 1200px) {
         height: 1089px;
     }
+}
+.bg-circle {
+    width: 132px;
+    @include bg-cover('../images/circle_hollow.png', 132px)
 }

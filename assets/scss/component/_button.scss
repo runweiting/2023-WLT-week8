@@ -1,0 +1,13 @@
+/* ======= latest news ======= */
+.arrow-end-latestNews-lg {
+    @include svg('../images/line_end_arrow_notch_latestnews-lg.svg', 196px, 24px);
+    &:hover {
+        opacity: 0.5;
+    }
+}
+.arrow-end-latestNews-sm {
+    @include svg('../images/line_end_arrow_notch_latestnews-sm.svg', 90px, 24px);
+    &:hover {
+        opacity: 0.5;
+    }
+}
