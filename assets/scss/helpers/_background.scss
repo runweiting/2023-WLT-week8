@@ -94,3 +94,8 @@
     width: 132px;
     @include bg-cover('../images/circle_hollow.png', 132px)
 }
+.border-xl-end {
+    @media (min-width: 1200px) {
+        border-right: 1px solid $white;
+    }
+}
