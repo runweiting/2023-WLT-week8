@@ -1,0 +1,21 @@
+.swiper {
+    width: 100vw;
+    height: 416px;
+    @media (max-width: 375px) {
+        width: 100%;
+    }
+}
+.swiper-slide {
+    max-width: 416px;
+}
+.swiper-scrollbar {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+.swiper-scrollbar-drag {
+    background: #ffffff !important;
+}
+.d-xxxl-block {
+    @media (min-width: 1920px) {
+        display: block !important;
+    }
+}

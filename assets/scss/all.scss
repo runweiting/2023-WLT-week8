@@ -1,6 +1,7 @@
 // font and icon
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Saira+Extra+Condensed:wght@300&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 // bootstrap5
 @import "../../node_modules/bootstrap/scss/functions";
@@ -18,3 +19,4 @@
 // component
 @import './component/carousel';
 @import './component/button';
+@import './component/swiper';
