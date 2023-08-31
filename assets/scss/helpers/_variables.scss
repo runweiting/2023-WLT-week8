@@ -637,14 +637,16 @@ $headings-color:              null !default;
 
 // scss-docs-start display-headings
 $display-font-sizes: (
-  1: 25rem,  // 400px custom
-  2: 6rem,   // 96px custom
-  3: 4rem,   // 64px custom
-  4: 3rem,   // 48px custom
-  5: 2.5rem, // 40px custom
-  6: 2rem,   // 32px custom
-  7: 1.5rem, // 24px custom
-  8: 1.25rem // 20px custom
+  1: 25rem,   // 400px custom
+  2: 6rem,    // 96px custom
+  3: 4rem,    // 64px custom
+  4: 3rem,    // 48px custom
+  5: 2.5rem,  // 40px custom
+  6: 2rem,    // 32px custom
+  7: 1.5rem,  // 24px custom
+  8: 1.25rem, // 20px custom
+  9: 0.75rem, // 12px custom
+  10: 0.5rem  // 8px custom
 ) !default;
 
 $display-font-family: null !default;
