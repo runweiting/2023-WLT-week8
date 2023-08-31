@@ -8,9 +8,14 @@
 .bg-linear-end {
     background: linear-gradient(to left, #7000FF, #11002D);
 }
-.bg-radial {
+.bg-radial-focus {
     background:radial-gradient(circle farthest-side at center, #28085C, #000000);
 }
+.bg-radial-diffuse {
+    background:radial-gradient(circle farthest-side at center, #000000, #28085C);
+}
+
+
 @mixin bg-cover($url, $height) {
     background: url($url);
     height: $height;

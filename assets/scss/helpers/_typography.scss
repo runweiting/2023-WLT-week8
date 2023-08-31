@@ -39,6 +39,9 @@
 .ls-15 {
     letter-spacing: 1.5rem;
 }
+.ls-17 {
+    letter-spacing: 1.7rem;
+}
 
 @media (min-width: 1920px) {
     .ls-xxxl-10 {
@@ -50,7 +53,18 @@
     .ls-xxxl-20 {
         letter-spacing: 2rem;
     }
-    .ls-xxxl-45 {
-        letter-spacing: 4.5rem;
+    .ls-xxxl-50 {
+        letter-spacing: 5rem;
+    }
+}
+
+/* ======= me-n* ======= */
+// 去除 letter-spacing 行末的多餘空白
+.me-n17 {
+    margin-right: -1.7rem;
+}
+@media (min-width: 1920px) {
+    .me-xxxl-n20 {
+        margin-right: -5rem;
     }
 }
