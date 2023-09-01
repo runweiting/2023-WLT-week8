@@ -33,7 +33,7 @@
     background-repeat: no-repeat;
 }
 
-/* ======= index.html ======= */
+/* ======= landingpage ======= */
 .bg-landingpage {
     @include bg-cover('../images/home_background.png', 1778px);
     @media (min-width: 768px) {
@@ -81,6 +81,8 @@
         height: 100%;
     }
 }
+
+/* ======= carousel ======= */
 .bg-carousel {
     height: 791px;
     background: url('../images/carousel_background.png'), radial-gradient(circle farthest-side at center, #28085C, #000000);
@@ -93,6 +95,8 @@
         height: 1089px;
     }
 }
+
+/* ======= latest news ======= */
 .bg-circle {
     width: 132px;
     @include bg-cover('../images/circle_hollow.png', 132px)
@@ -102,6 +106,8 @@
         border-right: 1px solid $white;
     }
 }
+
+/* ======= contact ======= */
 .rounded-line {
     width: 124px;
     height: 8px;
@@ -109,4 +115,34 @@
     @media (min-width: 1200px) {
         height: 12px;
     }
+}
+
+/* ======= product types ======= */
+@mixin bg-productType($url){
+    height: 406px;
+    background-color: $black !important;
+    // background-blend-mode 針對背景圖片的色彩混合
+    background-blend-mode: darken;
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    &:hover {
+        background-color: rgb(0, 0, 0, 0.5) !important;
+    }
+    @media (min-width: 768px) {
+        height: 876px;
+    }
+}
+.bg-productType1 {
+    @include bg-productType('../images/diane_vertical.png');
+}
+.bg-productType2 {
+    @include bg-productType('../images/felix_vertical.png');
+}
+.bg-productType3 {
+    @include bg-productType('../images/karina_vertical.png');
+}
+.bg-productType4 {
+    @include bg-productType('../images/vito_vertical.png');
 }

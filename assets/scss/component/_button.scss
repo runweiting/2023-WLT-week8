@@ -11,3 +11,9 @@
         opacity: 0.5;
     }
 }
+.arrow-end-productType {
+    @include svg('../images/line_end_arrow_notch_producttyle.svg', 155px, 24px);
+    &:hover {
+        opacity: 0.5;
+    }
+}
