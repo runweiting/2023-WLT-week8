@@ -1,20 +1,17 @@
 /* ======= carousel-imgBox ======= */
 .carousel-imgBox1 {
-    max-width: 100%;
     @include bg-cover('../images/carousel.png', 351px);
     @media (min-width: 768px) {
         height: 560px;
     }
 }
 .carousel-imgBox2 {
-    max-width: 100%;
     @include bg-cover('../images/box.png', 351px);
     @media (min-width: 768px) {
         height: 560px;
     }
 }
 .carousel-imgBox3 {
-    max-width: 100%;
     @include bg-cover('../images/screen.png', 351px);
     @media (min-width: 768px) {
         height: 560px;
