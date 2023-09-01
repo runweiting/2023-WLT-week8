@@ -8,17 +8,12 @@ import 'swiper/css/bundle';
 // init swiper
 const swiper = new Swiper('.swiper',{
     spaceBetween: 24,
-    mousewheel: true, // 滑鼠中鍵滾輪可滑動
-    snapOnRelease: true,
+    slidePreview: 3, // 看到幾張slides
     scrollbar: {
         el: ".swiper-scrollbar",
         draggable: true, // 可拖動
     },
-    slidePreview: 'auto', // 看到幾張slides
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-    },
+    mousewheel: true, // 滑鼠中鍵滾輪可滑動
     // Responsive breakpoints
     breakpoints: {
         // >= 375px

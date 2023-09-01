@@ -1,0 +1,20 @@
+// 用法像是 @mixin
+@keyframes circle-rotate {
+    0% {
+      transform: rotate(0deg);
+    } 
+    50% {
+      transform: rotate(180deg);
+    }
+    100% { 
+      transform: rotate(360deg);
+    }
+}
+.circle-rotate {
+    animation-name: circle-rotate;  // keyframe 名稱
+    animation-duration: 4s;  // 持續時間
+    animation-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);  // 加速速率
+    animation-iteration-count: infinite;  // 播放次數
+    animation-direction: alternate;  //  單數次正向播放，雙數次反向播放
+    animation-fill-mode: both;  //  播放完成的停留狀態
+}
