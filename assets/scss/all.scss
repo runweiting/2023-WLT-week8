@@ -15,10 +15,11 @@
 @import './helpers/typography';
 @import './helpers/background';
 @import './helpers/hover';
+@import './helpers/animation';
 
 // component
 @import './component/carousel';
 @import './component/button';
 @import './component/form';
 @import './component/swiper';
-@import './helpers/animation';
+@import './component/accordion';
