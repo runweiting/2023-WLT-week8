@@ -14,8 +14,6 @@
 .bg-radial-diffuse {
     background:radial-gradient(circle farthest-side at center, #000000, #28085C);
 }
-
-
 @mixin bg-cover($url, $height) {
     background: url($url);
     height: $height;
@@ -102,5 +100,13 @@
 .border-xl-end {
     @media (min-width: 1200px) {
         border-right: 1px solid $white;
+    }
+}
+.rounded-line {
+    width: 124px;
+    height: 8px;
+    border-radius: 12px;
+    @media (min-width: 1200px) {
+        height: 12px;
     }
 }

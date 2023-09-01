@@ -1,0 +1,14 @@
+/* ======= 移除 bs 預設樣式 ======= */
+.form-control:focus {
+    border-color: $primary; // 預設灰色
+    box-shadow: none; // 預設白色
+ }
+.form-control {
+    padding: 8px 16px;
+    border-radius: 0;
+    &::placeholder {
+        font-size: 20px;
+        font-weight: bold;
+        color: $dark;
+    }
+}
