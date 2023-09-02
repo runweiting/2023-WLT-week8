@@ -50,7 +50,11 @@
 }
 
 /* ======= product.html ======= */
-.carousel-product1 {
+.carousel-product1-1 {
     max-width: 960px;
     @include bg-cover('../images/diane_square1.png', 925px);
+}
+.carousel-product1-2 {
+    max-width: 960px;
+    @include bg-cover('../images/diane_square2.png', 925px);
 }
