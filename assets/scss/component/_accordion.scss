@@ -1,37 +1,24 @@
-// :not() 除了()以外的 .xxx, .xxx, .xxx都要吃到以下樣式
-// 除了
-.accordion-item, .accordion-button, .accordion-button:not(.collapsed) {
-background-color: transparent;
-color: #1F0F39;
-}
-
 .accordion-button {
-color: #1F0F39;
-padding: 32px 0 40px;
-border-bottom: 2px dotted #fff;
-&:focus {
-    box-shadow: none;
-    border-color: #fff;
-}
-&::after {
-    content: none;
-}
-.addIcon {
-    display: block;
-}
-.removeIcon {
-    display: none;
-}
-&:not(.collapsed) {
+    border-bottom: 2px dotted $white;
+    // Day 49 - FAQ 手風琴範例有加這個，但我看不懂？
+    &::after {
+        content: none;
+    }
+    // 未點擊時
     .addIcon {
-    display: none;
+        display: block;
     }
     .removeIcon {
-    display: block;
+        display: none;
     }
-}
-}
-
-.accordion-body {
-padding: 0;
+    // 當點擊時
+    // 在 button.accordion-button裡，自動略過有.collapsed的button，其他都要套用 {}
+    &:not(.collapsed) {
+        .addIcon {
+            display: none;
+        }
+        .removeIcon {
+            display: block;
+        }
+    }
 }

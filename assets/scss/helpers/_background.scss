@@ -1,4 +1,7 @@
 /* ======= bg-setting ======= */
+.bg-transparent {
+    background-color: transparent;
+}
 .bg-linear-bottom {
     background: linear-gradient(to bottom, #7000FF, #11002D);
 }
@@ -145,4 +148,11 @@
 }
 .bg-productType4 {
     @include bg-productType('../images/vito_vertical.png');
+}
+
+/* ======= faq ======= */
+.dotted-line {
+    @media (max-width: 1200px) {
+        border-bottom: 2px dotted $white;
+    }
 }

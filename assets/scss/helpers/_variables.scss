@@ -1304,7 +1304,7 @@ $accordion-padding-x:                     1.25rem !default;
 $accordion-color:                         $body-color !default; // Sass variable because of $accordion-button-icon
 $accordion-bg:                            $body-bg !default;
 $accordion-border-width:                  $border-width !default;
-$accordion-border-color:                  var(--#{$prefix}border-color) !default;
+$accordion-border-color:                  none !default;  // custom
 $accordion-border-radius:                 $border-radius !default;
 $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width) !default;
 
@@ -1319,7 +1319,7 @@ $accordion-transition:                    $btn-transition, border-radius .15s ea
 $accordion-button-active-bg:              tint-color($component-active-bg, 90%) !default;
 $accordion-button-active-color:           shade-color($primary, 10%) !default;
 
-$accordion-button-focus-border-color:     $input-focus-border-color !default;
+$accordion-button-focus-border-color:     $white !default;  // custom
 $accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
 
 $accordion-icon-width:                    1.25rem !default;

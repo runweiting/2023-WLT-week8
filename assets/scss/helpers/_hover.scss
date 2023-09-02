@@ -31,6 +31,11 @@
     }
 }
 
+/* ======= faq ======= */
+.btn-faq li:hover {
+    border-bottom: 1px solid $dark;
+}
+
 /* ======= footer ======= */
 footer a:hover {
     color: $primary !important;
