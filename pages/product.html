@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALPHABOX+ | 產品</title>
+  </head>
+  <body>
+
+    <%- include('./layout/header'); -%>
+
+    <!------- product ------->
+    <div class="bg-black">
+      <div class="container">
+        <ul class="list-unstyled mb-0 py-4 d-flex gap-6 justify-content-center">
+          <li><a class="btn btn-white shrikhand text-black fs-4 px-xl-20 py-xl-1" style="max-width: 234px; border-radius: 46px;" href="#">Diane</a></li>
+          <li><a class="btn btn-white shrikhand text-black fs-4 px-xl-20 py-xl-1" style="max-width: 234px; border-radius: 46px;" href="#">Felix</a></li>
+          <li><a class="btn btn-white shrikhand text-black fs-4 px-xl-20 py-xl-1" style="max-width: 234px; border-radius: 46px;" href="#">Karina</a></li>
+          <li><a class="btn btn-white shrikhand text-black fs-4 px-xl-20 py-xl-1" style="max-width: 234px; border-radius: 46px;" href="#">Vito</a></li>
+        </ul>
+      </div>
+      <div class="container-fluid gx-0 d-flex flex-xl-row">
+        <!------- carousel-inner ------->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade w-50" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#">
+                <div class="hover-carousel carousel-product1">
+                </div>
+              </a>
+            </div>
+          </div>
+          <!------- 控制按鈕 ------->
+          <button class="carousel-control-prev" style="width: 112px;" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="material-symbols-outlined" style="font-size: 60px;" aria-hidden="true">
+              arrow_circle_left
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next active" style="width: 112px;" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="material-symbols-outlined" style="font-size: 60px;" aria-hidden="true">
+              arrow_circle_right
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div>
+          <h2 class="shrikhand display-3">Diane</h2>
+          <p class="fw-bold">知識型</p>
+          <p>學術領導/知識分享/智能問答</p>
+          <div class="arrow-end-product"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

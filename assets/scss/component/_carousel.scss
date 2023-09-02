@@ -1,4 +1,4 @@
-/* ======= carousel-imgBox ======= */
+/* ======= index.html ======= */
 .carousel-imgBox1 {
     @include bg-cover('../images/carousel.png', 351px);
     @media (min-width: 768px) {
@@ -17,7 +17,7 @@
         height: 560px;
     }
 }
-/* ======= carousel-caption ======= */
+/* ------- carousel-caption ------- */
 .carousel-caption {
     @media (min-width: 768px) {
         top: 50%;
@@ -26,8 +26,7 @@
     }
 }
 
-
-/* ======= carousel-control ======= */
+/* ------- carousel-control ------- */
 .arrow-start-carousel {
     @include svg('../images/line_start_arrow_notch_carousel.svg', 180px, 48px);
     &:hover {
@@ -50,4 +49,8 @@
     }
 }
 
-
+/* ======= product.html ======= */
+.carousel-product1 {
+    max-width: 960px;
+    @include bg-cover('../images/diane_square1.png', 925px);
+}
