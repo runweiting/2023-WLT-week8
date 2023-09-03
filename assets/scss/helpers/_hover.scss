@@ -1,10 +1,15 @@
 /* ======= index.html ======= */
 /* ------- nav ------- */
-.btn-white:hover {
-    color: $white !important;
-    background-color: $black;
-    span {
+.btn-subscribe {
+    background-color: $white;
+    color: $black;
+    &:hover {
+        background-color: $black;
         color: $white !important;
+        border: 1px solid $white;
+        span {
+            color: $white !important;
+        }
     }
 }
 .navbar-toggler:hover,
