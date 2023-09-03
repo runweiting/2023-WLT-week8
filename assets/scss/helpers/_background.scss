@@ -36,7 +36,8 @@
     background-repeat: no-repeat;
 }
 
-/* ======= landingpage ======= */
+/* ======= index.html ======= */
+/* ------- landingpage ------- */
 .bg-landingpage {
     @include bg-cover('../images/home_background.png', 1778px);
     @media (min-width: 768px) {
@@ -85,7 +86,7 @@
     }
 }
 
-/* ======= carousel ======= */
+/* ------- carousel ------- */
 .bg-carousel {
     height: 791px;
     background: url('../images/carousel_background.png'), radial-gradient(circle farthest-side at center, #28085C, #000000);
@@ -99,7 +100,7 @@
     }
 }
 
-/* ======= latest news ======= */
+/* ------- latest news ------- */
 .bg-circle-latestNews {
     width: 132px;
     @include bg-cover('../images/circle_hollow.png', 132px)
@@ -110,7 +111,7 @@
     }
 }
 
-/* ======= contact ======= */
+/* ------- contact ------- */
 .rounded-line {
     width: 124px;
     height: 8px;
@@ -120,7 +121,7 @@
     }
 }
 
-/* ======= product types ======= */
+/* ------- product types ------- */
 @mixin bg-productType($url){
     height: 406px;
     background-color: $black !important;
@@ -151,9 +152,31 @@
 }
 
 /* ======= product.html ======= */
+.bg-product-title {
+    height: 925px;
+    @media (max-width: 768px) {
+        height: 305px;
+    }
+}
+.circle-bottom {
+    bottom: 60px !important;
+    @media (max-width: 768px) {
+        bottom: 24px !important;
+    }
+}
 .bg-circle-product {
     width: 196px;
-    @include bg-cover('../images/circle_hollow.png', 196px)
+    @include bg-cover('../images/circle_hollow.png', 196px);
+    @media (max-width: 768px) {
+        width: 109px;
+        height: 109px;
+    }
+}
+.bg-recommend {
+    height: 416px;
+    @media (max-width: 375px) {
+        min-height: 351px;
+    }
 }
 
 /* ======= faq.html ======= */

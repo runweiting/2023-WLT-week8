@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALPHABOX+ | 產品</title>
+  </head>
+  <body>
+
+    <%- include('./layout/header'); -%>
+
+    <!------- product ------->
+    <div class="bg-black position-relative">
+      <!------- product-menu ------->
+      <div class="container">
+        <ul class="list-unstyled mb-0 py-4 d-flex gap-2 gap-xl-6 justify-content-center">
+          <li><a class="btn btn-white shrikhand text-black fs-xl-4 px-4 px-xl-20 py-1" style="max-width: 234px; border-radius: 46px;" href="product-diane.html">Diane</a></li>
+          <li><a class="btn btn-white shrikhand text-black fs-xl-4 px-4 px-xl-20 py-1" style="max-width: 234px; border-radius: 46px;" href="product-felix.html">Felix</a></li>
+          <li><a class="btn btn-white shrikhand text-black fs-xl-4 px-4 px-xl-20 py-1" style="max-width: 234px; border-radius: 46px;" href="product-karina.html">Karina</a></li>
+          <li><a class="btn btn-white shrikhand text-black fs-xl-4 px-4 px-xl-20 py-1" style="max-width: 234px; border-radius: 46px;" href="product-vito.html">Vito</a></li>
+        </ul>
+      </div>
+      <!------- product ------->
+      <div class="container-fluid gx-0 row row-cols-1 row-cols-xl-2">
+        <!------- carousel-inner ------->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade col col-xl-6" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#">
+                <div class="hover-carousel carousel-product1-1">
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="#">
+                <div class="hover-carousel carousel-product1-2">
+                </div>
+              </a>
+            </div>
+          </div>
+          <!------- 控制按鈕 ------->
+          <button class="carousel-control-prev" style="width: 112px;" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="material-symbols-outlined" style="font-size: 60px;" aria-hidden="true">
+              arrow_circle_left
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next active" style="width: 112px;" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="material-symbols-outlined" style="font-size: 60px;" aria-hidden="true">
+              arrow_circle_right
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-flex flex-column justify-content-xl-center pt-4 pb-6 px-3 px-xl-10 col col-xl-6 bg-product-title">
+            <h2 class="shrikhand fs-1  display-xl-3 mb-0 mb-xl-6">Diane</h2>
+            <p class="fw-bold">知識型</p>
+            <p class="mb-2 mb-xl-4">學術領導/知識分享/智能問答</p>
+            <a class="d-block arrow-end-product" href="#">
+            </a>
+        </div>
+      </div>
+      <a class="position-absolute start-50 translate-middle-x circle-bottom" style="z-index: 3" href="#">
+        <div class="bg-circle-product circle-rotate position-relative">
+          <span class="material-symbols-outlined display-5 position-absolute top-50 start-50 translate-middle">
+            arrow_downward
+            </span>
+        </div>
+      </a>
+    </div>
+
+    <!------- product-description ------->
+    <div class="container pt-15 pb-20 pt-xl-20 pb-xl-30">
+      <div class="row justify-content-xl-between mb-8 mb-xl-30">
+        <div class="col col-xl-4 px-xl-0">
+          <div class="d-flex align-items-center mb-6 mb-xl-8">
+            <span class="material-symbols-outlined text-black display-5 me-3">
+              emergency
+            </span>
+            <h5 class="fw-medium text-black">學術領導/知識分享/智能問答</h5>
+          </div>
+          <p class="fw-medium text-black">歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作 - 3D立體投影機器人 Felix！</p>
+        </div>
+        <div class="col-xl-4 px-xl-0 d-none d-xl-inline-block">
+          <a class="display-8 fw-medium text-black d-block text-end" href="index.html">ALPHABOX+</a>
+        </div>
+      </div>
+      <ul class="row row-cols-1 row-cols-xl-3 list-unstyled mb-0 gap-6 gap-xl-0 gy-xl-26 btn-product">
+        <li class="col">
+          <a class="fw-bold text-black d-block mb-4 mb-xl-6" href="#">先進的3D投影技術</a>
+          <p class="text-black">Diane 搭載了最新的 3D 投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！</p>
+        </li>
+        <li class="col">
+          <a class="fw-bold text-black d-block mb-4 mb-xl-6" href="#">人性化的互動設計</a>
+          <p class="text-black">Diane 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與 Diane 進行自然、流暢的對話。</p>
+        </li>
+        <li class="col">
+          <a class="fw-bold text-black d-block mb-4 mb-xl-6" href="#">豐富的應用場景</a>
+          <p class="text-black">無論是家庭娛樂、教育培訓還是商業展示，Diane 都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。</p>
+        </li>
+        <li class="col">
+          <a class="fw-bold text-black d-block mb-4 mb-xl-6" href="#">高度自主性</a>
+          <p class="text-black">Diane 具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。</p>
+        </li>
+        <li class="col">
+          <a class="fw-bold text-black d-block mb-4 mb-xl-6" href="#">簡單易用的操作界面</a>
+          <p class="text-black">Diane 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。</p>
+        </li>
+      </ul>      
+    </div>
+
+    <!------- recommend ------->
+    <div class="bg-radial-diffuse">
+      <div class="container pt-15 pb-20 pt-xl-40 pb-xl-54">
+        <div class="d-flex flex-column mb-6 mb-xl-20 mx-xl-n3">
+          <h2 class="fs-1 display-xl-4 fw-bold ls-15 ls-xxxl-20 mb-4 me-xl-3">使用分享</h2>
+          <p class="d-xl-inline-block">展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+        </div>
+        <ul class="d-flex flex-column flex-xl-row gap-6 list-unstyled mb-0 mb-xl-12 mx-xl-n3">
+          <li class="col bg-secondary p-6 p-xl-10 bg-recommend d-flex flex-column">
+            <div class="d-inline-block mb-8">
+              <span class="fw-bold">Zona
+                <span class="material-icons display-10">
+                  circle
+                </span>
+                Taipei
+              </span>
+            </div>
+            <p class="fw-bold flex-grow-1">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+            <div class="d-flex align-items-center">
+              <span class="material-icons fs-6 me-4">
+                circle
+              </span>
+              <span class="material-icons fs-6 me-4">
+                circle
+              </span>
+              <span class="fw-bold">ALPHABOX+ Dianne</span>
+            </div>
+          </li>
+          <li class="col bg-white p-6 p-xl-10 bg-recommend d-flex flex-column">
+            <div class="d-inline-block text-black mb-8">
+              <span class="fw-bold">Lin
+                <span class="material-icons display-10">
+                  circle
+                </span>
+                Chiayi
+              </span>
+            </div>
+            <p class="fw-bold text-black flex-grow-1">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+            <div class="d-flex align-items-center text-black">
+              <span class="material-icons fs-6 me-4">
+                circle
+              </span>
+              <span class="material-icons fs-6 me-4">
+                circle
+              </span>
+              <span class="fw-bold">ALPHABOX+ Dianne</span>
+            </div>
+          </li>
+          <li class="col bg-secondary p-6 p-xl-10 bg-recommend d-flex flex-column">
+            <div class="d-inline-block mb-8">
+              <span class="fw-bold">云
+                <span class="material-icons display-10">
+                  circle
+                </span>
+                Taipei
+              </span>
+            </div>
+            <p class="fw-bold flex-grow-1">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
+            <div class="d-flex align-items-center">
+              <span class="material-icons fs-6 me-4">
+                circle
+              </span>
+              <span class="material-icons fs-6 me-4">
+                circle
+              </span>
+              <span class="fw-bold">ALPHABOX+ Dianne</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

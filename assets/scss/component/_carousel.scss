@@ -42,7 +42,7 @@
 .carousel-control-next.active {
     opacity: 1;
 }
-@media (max-width: 1919px) {
+@media (max-width: 1400px) {
     .carousel-control-prev,
     .carousel-control-next {
         display: none;
@@ -51,10 +51,26 @@
 
 /* ======= product.html ======= */
 .carousel-product1-1 {
-    max-width: 960px;
     @include bg-cover('../images/diane_square1.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
 }
 .carousel-product1-2 {
-    max-width: 960px;
     @include bg-cover('../images/diane_square2.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
+}
+.carousel-product2-1 {
+    @include bg-cover('../images/felix_square1.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
+}
+.carousel-product2-2 {
+    @include bg-cover('../images/felix_square2.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
 }

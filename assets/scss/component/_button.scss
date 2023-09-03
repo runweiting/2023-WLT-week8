@@ -24,5 +24,9 @@
     &:hover {
         opacity: 0.5;
     }
+    @media (max-width: 768px) {
+        @include svg('../images/line_end_arrow_notch_latestnews-sm.svg', 90px, 24px);
+    }
 }
+
 

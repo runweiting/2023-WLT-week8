@@ -406,12 +406,14 @@ $spacers: (
   26: $spacer * 6.5,   // 104px custom
   27: $spacer * 6.75,  // 108px custom
   28: $spacer * 7,     // 112px custom
+  30: $spacer * 7.5,   // 120px custom
   31: $spacer * 7.75,  // 124px custom
   32: $spacer * 8,     // 128px custom
   36: $spacer * 9,     // 144px custom
   38: $spacer * 9.5,   // 152px custom
   40: $spacer * 10,    // 160px custom
-  46: $spacer * 11.5   // 184px custom
+  46: $spacer * 11.5,  // 184px custom
+  54: $spacer * 13.5   // 216px custom
 ) !default;
 // scss-docs-end spacer-variables-maps
 

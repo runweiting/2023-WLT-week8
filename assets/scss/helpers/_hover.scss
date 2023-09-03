@@ -40,3 +40,8 @@
 footer a:hover {
     color: $primary !important;
 }
+
+/* ======= product.html ======= */
+.btn-product li a:hover {
+    border-bottom: 2px solid $black;
+}
