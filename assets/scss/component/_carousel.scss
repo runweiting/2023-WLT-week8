@@ -1,20 +1,23 @@
 /* ======= index.html ======= */
 .carousel-imgBox1 {
-    @include bg-cover('../images/carousel.png', 351px);
-    @media (min-width: 768px) {
-        height: 560px;
+    max-width: 1296px;
+    @include bg-cover('../images/carousel.png', 560px);
+    @media (max-width: 768px) {
+        height: 351px;
     }
 }
 .carousel-imgBox2 {
-    @include bg-cover('../images/box.png', 351px);
-    @media (min-width: 768px) {
-        height: 560px;
+    max-width: 1296px;
+    @include bg-cover('../images/box.png', 560px);
+    @media (max-width: 768px) {
+        height: 351px;
     }
 }
 .carousel-imgBox3 {
-    @include bg-cover('../images/screen.png', 351px);
-    @media (min-width: 768px) {
-        height: 560px;
+    max-width: 1296px;
+    @include bg-cover('../images/screen.png', 560px);
+    @media (max-width: 768px) {
+        height: 351px;
     }
 }
 /* ------- carousel-caption ------- */
@@ -42,7 +45,7 @@
 .carousel-control-next.active {
     opacity: 1;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1919px) {
     .carousel-control-prev,
     .carousel-control-next {
         display: none;
