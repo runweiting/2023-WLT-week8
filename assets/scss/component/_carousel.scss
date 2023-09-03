@@ -42,6 +42,12 @@
         opacity: 1;
     }
 }
+.carousel-control-prev,
+.carousel-control-next {
+    &:hover {
+        color: $primary !important;
+    }
+}
 .carousel-control-next.active {
     opacity: 1;
 }

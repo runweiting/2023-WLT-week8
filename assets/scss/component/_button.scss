@@ -20,6 +20,15 @@
 }
 
 /* ======= product.html ======= */
+.btn-white {
+    &:hover {
+        background-color: $white !important;
+        color: $primary !important;
+    }
+    &:focus {
+        color: $black !important;
+    }
+}
 .arrow-end-product {
     @include svg('../images/line_end_arrow_notch_prodcut.svg', 314px, 24px);
     &:hover {
