@@ -100,7 +100,7 @@
 }
 
 /* ======= latest news ======= */
-.bg-circle {
+.bg-circle-latestNews {
     width: 132px;
     @include bg-cover('../images/circle_hollow.png', 132px)
 }
@@ -148,6 +148,12 @@
 }
 .bg-productType4 {
     @include bg-productType('../images/vito_vertical.png');
+}
+
+/* ======= product.html ======= */
+.bg-circle-product {
+    width: 196px;
+    @include bg-cover('../images/circle_hollow.png', 196px)
 }
 
 /* ======= faq.html ======= */
