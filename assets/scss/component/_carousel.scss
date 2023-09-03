@@ -74,3 +74,27 @@
         height: 351px;
     }
 }
+.carousel-product3-1 {
+    @include bg-cover('../images/karina_square1.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
+}
+.carousel-product3-2 {
+    @include bg-cover('../images/karina_square2.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
+}
+.carousel-product4-1 {
+    @include bg-cover('../images/vito_square1.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
+}
+.carousel-product4-2 {
+    @include bg-cover('../images/vito_square2.png', 925px);
+    @media (max-width: 768px) {
+        height: 351px;
+    }
+}
