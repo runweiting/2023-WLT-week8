@@ -1,4 +1,5 @@
-/* ======= nav ======= */
+/* ======= index.html ======= */
+/* ------- nav ------- */
 .btn-white:hover {
     color: $white !important;
     background-color: $black;
@@ -11,7 +12,7 @@
     color: shift-color($link-color, $link-shade-percentage);
 }
 
-/* ======= landingpage-bottom ======= */
+/* ------- landingpage-bottom ------- */
 .hover-product {
     transition: 2s ease-in;
     &:hover {
@@ -23,7 +24,7 @@
     }
 }
 
-/* ======= carousel ======= */
+/* ------- carousel ------- */
 .carousel-item a:hover {
     .hover-carousel {
         opacity: 0.8;
@@ -31,17 +32,20 @@
     }
 }
 
-/* ======= faq ======= */
-.btn-faq li:hover {
-    border-bottom: 1px solid $dark;
-}
-
-/* ======= footer ======= */
+/* ------- footer ------- */
 footer a:hover {
     color: $primary !important;
 }
 
 /* ======= product.html ======= */
-.btn-product li a:hover {
-    border-bottom: 2px solid $black;
+.btn-productAdvantage li a {
+    border-bottom: 2px solid transparent;
+    &:hover {
+        border-bottom: 2px solid $black;
+    }
+}
+
+/* ======= faq.html ======= */
+.btn-faq li:hover {
+    border-bottom: 1px solid $dark;
 }
