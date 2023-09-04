@@ -6,3 +6,10 @@
 .form-control {
     border-radius: 0;
 }
+
+/* ======= 修改 form-floating 預設樣式 ======= */
+.form-floating > 
+.form-control:-webkit-autofill ~ label, .form-floating > 
+.form-control:not(:placeholder-shown) ~ label {
+    transform: scale(0.75);
+}
