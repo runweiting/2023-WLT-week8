@@ -1,14 +1,21 @@
 .swiper {
-    overflow: initial; // 這是什麼意思？
+    overflow: initial;
     width: 100vw;
-    height: 416px;
-    @media (max-width: 375px) {
-        max-width: 351px;
-        height: 351px;
+}
+.recommend-swiper {
+    height: calc(351px * 4 + 24px * 3);
+    @media (min-width: 440px) {
+        overflow: initial;
+        height: auto;
     }
 }
 .swiper-slide {
-    max-width: 416px;
+    width: 351px;
+    height: 351px !important;
+    @media (min-width: 376px) {
+        max-width: 416px;
+        height: 416px;
+    }
 }
 .swiper-scrollbar {
     background: rgba(255, 255, 255, 0.2) !important;
