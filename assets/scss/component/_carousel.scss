@@ -44,18 +44,16 @@
 }
 .carousel-control-prev,
 .carousel-control-next {
+    width: 72px;
     &:hover {
         color: $primary !important;
+    }
+    @media (min-width: 1200px) {
+        width: 112px;
     }
 }
 .carousel-control-next.active {
     opacity: 1;
-}
-@media (max-width: 1919px) {
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: none;
-    }
 }
 
 /* ======= product.html ======= */
