@@ -173,10 +173,11 @@
     }
 }
 .bg-recommend {
-    height: 416px;
-    @media (max-width: 375px) {
-        min-height: 351px;
-    }
+    aspect-ratio: 1/1;
+/*     height: 351px;
+    @media (min-width: 376px) {
+        height: 416px;
+    } */
 }
 
 /* ======= faq.html ======= */
