@@ -1,7 +1,10 @@
 .swiper {
-    overflow: initial; // 是指将元素的溢出内容设置为初始值。这意味着元素将使用浏览器的默认处理方式来处理溢出内容。默认情况下，元素会在内容溢出时自动添加滚动条，以便用户可以滚动并查看剩余的内容。如果元素没有溢出内容，这个属性将没有任何效果。
-    pointer-events: none;
-    width: 100vw;
+    overflow: initial;
+    pointer-events: none; // pointer-events 属性用于设置元素是否对鼠标事件做出反应。
+    @media (min-width: 440px) {
+        pointer-events: initial; // 是指将元素的溢出内容设置为初始值。这意味着元素将使用浏览器的默认处理方式来处理溢出内容。默认情况下，元素会在内容溢出时自动添加滚动条，以便用户可以滚动并查看剩余的内容。如果元素没有溢出内容，这个属性将没有任何效果。
+        width: 100vw;
+    }
 }
 .recommend-swiper {
     height: calc(351px * 4 + 24px * 3);
